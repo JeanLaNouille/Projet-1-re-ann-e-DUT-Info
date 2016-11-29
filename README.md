@@ -5,24 +5,13 @@ Jeu d'infiltration en 2D, en C++ avec la librairie SFML
 Cahier des charges
 
 Intitulé du projet : Elaborer un jeu d’infiltration en deux dimensions, en vue aérienne, à l’aide du langage C++ et de la librairie SFML
+
 Description : Il s’agira de concevoir un système de jeu centré autour d’une mécanique d’infiltration. Il faut entendre par là que le joueur devra faire son possible afin d’éviter le combat avec l’ennemi. Il devra donc attentivement étudier les trajectoires et les champs de vision de ceux-ci, ainsi que la topographie des niveaux, par crainte d’être repéré et de recommencer le niveau.
+
 Inspirations : divers ‘classiques’ du jeu d’infiltration, notamment en deux dimensions : Metal Gear sur MSX, Mark Of the Ninja sur PC...
 
 Fonctionnalités prévues : 
-Menu d’accueil contenant les champs suivant :
-Nouvelle Partie
-Sélection de la difficulté
-Facile : le joueur est plus résistant aux attaques ennemies, et a accès aux bonus, et les champs de vision ennemis sont réduits. Le temps de réaction des ennemis pourra également être augmenté.
-Normal : Le joueur est légèrement plus fragile, et les ennemis plus vigilants. l’utilisation de certains items peut être limitée.
-Difficile : le joueur est très vulnérable, et les ennemis très réactifs. Aucun item n’est disponible
-Charger une partie
-Renvoie vers une partie précédemment sauvegardée, au dernier checkpoint
-Sélection des niveaux
-Renvoie vers un écran des niveaux précédemment visités
-Options
-Résolution (Boutons en forme de flèches à gauche et à droite, permettant de changer la taille de la fenêtre. 
-Volume (musique/Effets), flèches à gauche et à droite pour monter ou baisser le volume.
-Configuration des touches (clavier et/ou manette)
+Menu d’accueil
 Déplacement animé (plusieurs sprites) du personnage selon les axes x et y dans les niveaux. Il faudra accorder une attention particulière à l’orientation du sprite.
 Interface utilisateur dans les niveaux (Jauge de vie, radar sonore)
 Génération de map : les maps sont composées de salles successives (niveaux), prédéfinis par nos soins; ces niveaux seront assemblés de façon procédurale.
