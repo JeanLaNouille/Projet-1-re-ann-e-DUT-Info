@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1481120902 source:p:\projet\main\jeu\menu.cpp
+	<stdio.h>
+	<stdlib.h>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
