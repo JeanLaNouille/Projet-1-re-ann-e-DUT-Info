@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1481121804 source:p:\projet\main\jeu\menu.cpp
+	<stdio.h>
+	<stdlib.h>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1485506919 source:p:\projet\main\jeu\_menu.old\menu.cpp
+	<stdio.h>
+	<stdlib.h>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
